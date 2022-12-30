@@ -169,7 +169,7 @@ span{
 }
 
 .briefcase-box img:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
 
 }
 
@@ -199,14 +199,14 @@ section.skills{
 
 .knowledge{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(110px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(70px,auto));
     justify-content: center;
     gap: 25px;
 }
 
 .tools{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(70px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(50px,auto));
     justify-content: center;
     gap: 50px;
 }
@@ -230,3 +230,4 @@ section.skills{
     opacity: 1;
     transform: translate(0px,-150px)
 }
+
