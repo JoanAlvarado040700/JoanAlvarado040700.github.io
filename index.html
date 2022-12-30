@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Signika+Negative&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Signika+Negative&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/eins-modal/dist/css/eins-modal.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Bienvenido</title>
 </head>
+
 <body>
-    <header>
-    <div class="hero">
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Portafolio</a></li>
-                    <li><a href="">Acerca de mi</a></li>
-                </ul>
-            </nav>
+    <header id="inicio">
+        <div class="hero">
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#portafolio">Portafolio</a></li>
+                        <li><a href="#acerca">Acerca de mi</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <img src="./img/banner.jpg" alt="">
         </div>
-        <img src="./img/banner.jpg" alt="">
-    </div>
-    <div class="profile">
-        <div class="square"></div>
+        <div class="profile"">
+        <div class=" square"></div>
         <div class="circle-trans"></div>
         <div class="circle"></div>
         <div class="profile-img"><img src="./img/avatar.png" alt=""></div>
@@ -32,126 +38,174 @@
         <div class="square-text-2"><span>ING. EN SISTEMAS | DESARROLLADOR WEB Y PYTHON</span></div>
         <div class="contact-icon">
             <a href="https://github.com/JoanAlvarado040700"> <img src="./img/github-logo-24 (1).png" alt=""></a>
-            <a href=""> <img src="./img/gmail-logo-24 (1).png" alt=""></a>
-            <a href="https://www.linkedin.com/in/joan-sebastian-larios-alvarado-5882a917b/"> <img src="./img/linkedin-square-logo-24.png" alt=""></a>
+            <a data-modal-id="correo"> <img src="./img/gmail-logo-24.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/joan-sebastian-larios-alvarado-5882a917b/"> <img
+                    src="./img/linkedin-square-logo-24.png" alt=""></a>
             <a href="https://wa.link/6sbtp4"> <img src="./img/whatsapp-logo-24 (1).png" alt=""></a>
         </div>
         <div class="square-text-3"><a href="#about-me"><span>About me</span>Sobre mi</a></div>
 
-    </div>
-</header>
-<section class="briefcase">
-    <div class="briefcase-section container">
-        <h2><span>Briefcase|</span>Portafolio</h2>
-        <div class="briefcase-box">
+        </div>
+    </header>
+    <section class="briefcase" id="portafolio">
+        <div class="briefcase-section container">
+            <h2><span>Briefcase|</span>Portafolio</h2>
+            <div class="briefcase-box">
                 <img src="./img/ReconocimientoFacial.jpg" alt="">
                 <img src="./img/DescargaVideos.jpg" alt="">
                 <img src="./img/WebModerna.jpg" alt="">
                 <img src="/img/Lista.jpg" alt="">
-        </div>
-    </div>
-
-
-</section>
-   
-
-
-<section class="skills">
-    
-    <div class="skill container">
-        <div class="knowledge-part">
-            <h2><span>Knowledge</span>| Conocimientos</h2>
-            <divv class="knowledge">
-                <div>
-                    <img src="./img/html5-256x256-1175193.png" alt="">
-                    <h3>HTML</h3>
-                </div>
-                <div>
-                    <img src="./img/js.png" alt="">
-                    <h3>JS</h3>
-                </div>
-                <div>
-                    <img src="./img/css3-256x256-1175239.png" alt="">
-                    <h3>CSS</h3>
-                </div>
-                <div>
-                    <img src="./img/arduino-256x256-226072.png" alt="">
-                    <h3>ARDUINO</h3>
-                </div>
-                <div>
-                    <img src="./img/ruby.png" alt="">
-                    <h3>Ruby</h3>
-                </div>
-                <div>
-                    <img src="./img/python-256x256-226051.png" alt="">
-                    <h3>PYTHON</h3>
-                </div>
-                
-            </divv>
-
+            </div>
         </div>
 
-        <div class="tools-part">
-            <h2><span>Dev tools |</span>Herramientas</h2>
-            <div class="tools">
-                <div>
-                    <img src="./img/github_web-256x256-225988.png" alt="">
-                    <h3>GITHUB</h3>
-                </div>
-                <div>
-                    <img src="./img/mysql.png" alt="">
-                    <h3>Workbeach</h3>
-                </div>
-                <div>
-                    <img src="./img/vs-code.png" alt="">
-                    <h3>VScode</h3>
-                </div>
-                <div>
-                    <img src="./img/git.png" alt="">
-                    <h3>GIT</h3>
-                </div>
-                <div>
-                    <img src="./img/figma.png" alt="">
-                    <h3>Figma</h3>
-                </div>
+
+    </section>
+
+
+
+    <section class="skills">
+
+        <div class="skill container">
+            <div class="knowledge-part">
+                <h2><span>Knowledge</span>| Conocimientos</h2>
+                <divv class="knowledge">
+                    <div>
+                        <img src="./img/html5-256x256-1175193.png" alt="">
+                        <h3>HTML</h3>
+                    </div>
+                    <div>
+                        <img src="./img/js.png" alt="">
+                        <h3>JS</h3>
+                    </div>
+                    <div>
+                        <img src="./img/css3-256x256-1175239.png" alt="">
+                        <h3>CSS</h3>
+                    </div>
+                    <div>
+                        <img src="./img/arduino-256x256-226072.png" alt="">
+                        <h3>ARDUINO</h3>
+                    </div>
+                    <div>
+                        <img src="./img/ruby.png" alt="">
+                        <h3>Ruby</h3>
+                    </div>
+                    <div>
+                        <img src="./img/python-256x256-226051.png" alt="">
+                        <h3>PYTHON</h3>
+                    </div>
+
+                </divv>
+
             </div>
 
+            <div class="tools-part">
+                <h2><span>Dev tools |</span>Herramientas</h2>
+                <div class="tools">
+                    <div>
+                        <img src="./img/github_web-256x256-225988.png" alt="">
+                        <h3>GITHUB</h3>
+                    </div>
+                    <div>
+                        <img src="./img/mysql.png" alt="">
+                        <h3>Workbeach</h3>
+                    </div>
+                    <div>
+                        <img src="./img/vs-code.png" alt="">
+                        <h3>VScode</h3>
+                    </div>
+                    <div>
+                        <img src="./img/git.png" alt="">
+                        <h3>GIT</h3>
+                    </div>
+                    <div>
+                        <img src="./img/figma.png" alt="">
+                        <h3>Figma</h3>
+                    </div>
+                </div>
 
+
+            </div>
         </div>
+    </section>
+
+    <section class="about" id="acerca">
+        <h2><span>About me |</span> Acerca de mi</h2>
+        <div class="about-flex container">
+
+            <div class="about-info">
+                <p>
+                    Mi nombre es Joan Sebastian Larios Alvarado, soy egresado de la carrera ingenieria en sistemas con
+                    pensun
+                    finalizado, desarrollador frond-end junior, programador arduino, programador python y analista de
+                    datos.
+                    Tengo como meta llegar a senior como desarrollador full stack e inteligencia artificial con python.
+                    Me gusta la
+                    musica, jugar, leer y ver anime en mis tiempos libres.
+                </p>
+                <p>
+                    <br>He trabajado en diferentes proyectos como integrante del centro de innovacion Slilma, donde los
+                    equipos son
+                    multidiciplinarios entre los proyectos mas destacados son aplicaciones moviles, las cuales
+                    desarrollamos con
+                    diferentes tecnologias y metodologias de trabajo. Tambien desarrolle un par de proyectos en la
+                    plataforma
+                    arduino uno de ellos resulto destacar mas en una activiadad nacional de arduino. Uno de los
+                    proyectos
+                    trabajados en slilma nos ayudo a ganar el 2do lugar en una competencia de innovacion a nivel
+                    nacional.
+                </p>
+            </div>
+            <div class="social">
+                <a href="#https://wa.link/6sbtp4 > <img src=" ./img/whatsapp-256x256-437872.png" alt=""></a>
+                <a href="https://www.facebook.com/joan.sebastian.A.999/"> <img src="./img/facebook-256x256-437883.png"
+                        alt=""></a>
+                <a href="https://www.instagram.com/joan.sevastian.3/"><img src="./img/instagram-256x256-437880.png"
+                        alt=""></a>
+                <a href="https://github.com/JoanAlvarado040700"><img src="./img/github-256x256-437874.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="icon-element">
+            <div>
+                <a href="https://github.com/JoanAlvarado040700/JoanAlvarado040700.github.io" target="_blank">
+                    <img src="./img/github_web-256x256-225988.png" alt="">
+                    <span>/Codigo fuente</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container"></div>
+        <p> &copy; Copyright 2022 | Design by Sebas<a href="http://" ,<a href="http://" p>
+    </footer>
+
+
+
+
+    <!--    Modal section: Correo electronico -->
+<div id="correo" class="eins-modal">
+    <div class="eins-modal-content">
+        <div class="eins-modal-close"></div>
+
+
+        <form class="form" action="https://formspree.io/f/xpzezala" method="POST">
+            <label>
+                <h3>Your email:</h3>
+                <input type="email" name="email">
+            </label>
+            <label>
+                <h3>Your message: </h3>
+                <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+        </form>
+
     </div>
-</section>
+</div>
 
-<section class="about">
-    <h2><span>About me |</span> Acerca de mi</h2>
-    <div class="about-flex container">
-        
-        <div class="about-info">
-            <p>
-                Mi nombre es Joan Sebastian Larios Alvarado, soy egresado de la carrera ingenieria en sistemas con pensun
-                finalizado, desarrollador frond-end junior, programador arduino, programador python y analista de datos.
-                Tengo como meta llegar a senior como desarrollador full stack e inteligencia artificial con python. Me gusta la 
-                musica, jugar, leer y ver anime en mis tiempos libres.
-            </p>
-            <p>
-                <br>He trabajado en diferentes proyectos como integrante del centro de innovacion Slilma, donde los equipos son 
-                multidiciplinarios entre los proyectos mas destacados son aplicaciones moviles, las cuales desarrollamos con 
-                diferentes tecnologias y metodologias de trabajo. Tambien desarrolle un par de proyectos en la plataforma
-                arduino uno de ellos resulto destacar mas en una activiadad nacional de arduino. Uno de los proyectos 
-                trabajados en slilma nos ayudo a ganar el 2do lugar en una competencia de innovacion a nivel nacional.
-            </p>
-        </div>
-        <div class="social">
-            <a href="#" > <img src="./img/whatsapp-256x256-437872.png" alt=""></a>
-            <a href="#" > <img src="./img/facebook-256x256-437883.png" alt=""></a>
-            <a href="#" ><img src="./img/instagram-256x256-437880.png" alt=""></a>
-            <a href="#" ><img src="./img/github-256x256-437874.png" alt=""></a>
-        </div>
-    </div> 
-</section>
-
-<footer>
-    <div class="container"></div>
-    <p> &copy; Copyright 2022 | Design by Sebas<a href="http://",<a href="http://"p>
-</footer>
+    <script src="./node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
 </body>
+
 </html>
