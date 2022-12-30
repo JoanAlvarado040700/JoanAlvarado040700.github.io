@@ -281,3 +281,33 @@ footer{
     text-align: center;
     color: var(--secundary-light);
 }
+
+/*Icon element*/
+.icon-element{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+.icon-element a{
+    display: flex;
+    font-size: 1.5em;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon-element img{
+    width: 70px;
+}
+
+.icon-element img:hover{
+    transform: scale(1.2);
+}
+.icon-element a:hover{
+    transform: scale(1.2);
+}
+.icon-element span:hover{
+    color: var(--secundary-light);
+}
