@@ -16,6 +16,10 @@ body{
     font-family: 'Signika Negative', sans-serif;
     color: var(--secundary);
 }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .navbar{
     display:flex;
     justify-content:flex-end;
@@ -231,3 +235,49 @@ section.skills{
     transform: translate(0px,-150px)
 }
 
+.about{
+    background-color: var(--dark2);
+}
+.about h2{
+    padding: 40px;
+    text-align: center;
+}
+
+.about-flex{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50 0 200px;
+}
+
+.about p{
+    font-size:1.5rem;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 2.5rem;
+    color: var(--secundary-light);
+}
+
+
+.social{
+    border-left: var(--secundary) 5px solid;
+    padding-left: 50px;
+}
+.social img{
+    width: 60px;
+    margin: 10px;
+}
+
+.social img:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* FOOter*/
+
+footer{
+    background-color:var(--dark2);
+    text-align: center;
+    color: var(--secundary-light);
+}
