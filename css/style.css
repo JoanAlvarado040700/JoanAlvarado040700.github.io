@@ -172,3 +172,61 @@ span{
     transform: scale(1.3);
 
 }
+
+/* Skils*/
+
+section.skills{
+    background-color: var(--darl1);
+}
+
+.skill{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    justify-content: center;
+    gap: 170px;
+    width:90%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.skill h2{
+    padding-bottom: 60px;
+}
+
+.skill img{
+    width: 90px;
+}
+
+.knowledge{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(110px,auto));
+    justify-content: center;
+    gap: 25px;
+}
+
+.tools{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(70px,auto));
+    justify-content: center;
+    gap: 50px;
+}
+
+/* Toolstip*/
+
+.skill h3{
+    background-color:var(--dark2);
+    text-align: center;
+    border-radius: 5px;
+    padding:5px 0;
+    font-size: 1.1rem;
+    width: 100px;
+    opacity: 0;
+    transform: translate(0px,-100px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    color: var(--primary);
+}
+.knowledge>div:hover h3,
+.tools>div:hover h3{
+    opacity: 1;
+    transform: translate(0px,-150px)
+}
