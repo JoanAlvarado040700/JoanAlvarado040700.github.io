@@ -10,6 +10,7 @@
     --secundary-light: #586e75;
     --darl1:#232c31;
     --dark2:#1d2528; 
+    scroll-behavior: smooth;
 }
 body{
     font-size: 18px;
@@ -311,3 +312,8 @@ footer{
 .icon-element span:hover{
     color: var(--secundary-light);
 }
+
+
+
+/* contact form */
+
