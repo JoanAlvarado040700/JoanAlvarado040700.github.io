@@ -313,7 +313,49 @@ footer{
     color: var(--secundary-light);
 }
 
+/*  modals */
+.eins-modal-content{
+    max-width: 700px;
+    background-color:var(--darl1);
+
+}
 
 
 /* contact form */
 
+form{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.form>label>input{
+    background-color: var(--dark2);
+    border-radius: 10px;
+    padding:10px 60px;
+    color: var(--secundary);
+    outline: none;
+    opacity: .7;
+    width: 100%;
+}
+.form>label>textarea{
+    background-color: var(--dark2);
+    padding: 50px;
+    border-radius: 10px;
+    outline: none;
+    color: var(--secundary);
+    opacity: .7;
+    width: 100%;
+}
+label{
+    padding: 5px;
+    color: var(--secundary);
+}
+.form>button{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: radius 10px;
+    padding: 10px;
+
+}

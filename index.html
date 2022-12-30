@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Signika+Negative&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./node_modules/eins-modal/dist/css/eins-modal.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Bienvenido</title>
 </head>
 
@@ -184,16 +184,18 @@
 
 
     <!--    Modal section: Correo electronico -->
-    <div id="correo" class="eins-modal" data-options="openTranssition: expandIn;
-openDuration: 200;">
-        <div class="eins-modal-content"></div>
-        <form action="https://formspree.io/f/xpzezala" method="POST">
+<div id="correo" class="eins-modal">
+    <div class="eins-modal-content">
+        <div class="eins-modal-close"></div>
+
+
+        <form class="form" action="https://formspree.io/f/xpzezala" method="POST">
             <label>
-                Your email:
+                <h3>Your email:</h3>
                 <input type="email" name="email">
             </label>
             <label>
-                Your message:
+                <h3>Your message: </h3>
                 <textarea name="message"></textarea>
             </label>
             <!-- your other form fields go here -->
@@ -201,6 +203,7 @@ openDuration: 200;">
         </form>
 
     </div>
+</div>
 
     <script src="./node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
 </body>
